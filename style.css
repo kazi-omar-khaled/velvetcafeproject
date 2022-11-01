@@ -1,0 +1,233 @@
+.home-container {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.navmain {
+    display: block;
+    background-color: white;
+    position: sticky;
+}
+
+
+.navitems {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navitems li {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.navitems li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navitems li a:hover {
+    color: dimgray;
+}
+
+.navitems li a i {
+    font-size: 18px;
+    margin-right: 3px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.title {
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    font-size: 50px;
+}
+
+.sub-title {
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+.buttoncontact {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 40px;
+}
+
+.carousel {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.auto-slider {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 720px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider figure img {
+    width: 20%;
+    float: left;
+    height: 500px
+}
+
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s sliding ease infinite;
+}
+
+@keyframes sliding {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: -100%;
+    }
+
+    40% {
+        left: -200%;
+    }
+
+    60% {
+        left: -300%;
+    }
+
+    80% {
+        left: -400%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+.nextitle {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
+
+.nextitle span {
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+.dash {
+    width: 150px;
+    height: 5px;
+    background-color: white;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.bottom-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    max-width: 100%;
+    height: 600px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 300px;
+    height: 600px;
+}
+
+.addressHeading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+}
+
+.location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.cafe-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    margin-top: 15px;
+}
+
+.business {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 600px;
+    max-width: 400px;
+}
+
+.businessHeading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.week {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    margin-top: 2px;
+}
